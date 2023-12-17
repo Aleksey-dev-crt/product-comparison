@@ -5,6 +5,10 @@
 ###
 
 ```
+git clone <repository path>
+```
+
+```
 npm install
 ```
 

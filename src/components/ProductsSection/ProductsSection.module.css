@@ -1,0 +1,28 @@
+.container {
+	margin: 63px auto 77px;
+}
+
+.headingContainer {
+	width: 1110px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.title {
+	color: #828286;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 60px;
+	letter-spacing: 0.96px;
+}
+
+.productsContainer {
+	width: 1110px;
+	margin: 20px auto 0;
+	display: flex;
+	gap: 80px;
+	align-items: flex-end;
+}
+

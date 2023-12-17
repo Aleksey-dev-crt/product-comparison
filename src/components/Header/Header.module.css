@@ -1,0 +1,48 @@
+.header {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 101px;
+	width: 1110px;
+}
+
+.catalog {
+	color: #0d5adc;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	letter-spacing: 0.9px;
+}
+
+.nav {
+	display: flex;
+	gap: 48px;
+	align-items: center;
+}
+
+.link {
+	all: unset;
+	cursor: pointer;
+}
+
+.link:hover {
+	opacity: 0.7;
+}
+
+.UserAccount {
+	display: flex;
+	align-items: center;
+	gap: 19px;
+}
+
+.text {
+	color: #3b4157;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	letter-spacing: 0.24px;
+}
+

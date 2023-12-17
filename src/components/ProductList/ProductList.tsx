@@ -16,7 +16,7 @@ function ProductList({ products }: TProductList) {
 						<img src={product.img} alt={product.model} />
 						<p className={styles.model}>{product.model}</p>
 					</div>					
-					{products.length < 6 && <Dropdown id={product.id} />}
+					{products.length < 6 && <Dropdown id={product.id} showSearch={products.length < 3} />}
 				</li>
 			))}
 		</ul>

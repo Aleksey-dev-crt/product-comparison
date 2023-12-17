@@ -16,7 +16,7 @@ import {
 import ChangeIcon from '../UI/ChangeIcon/ChangeIcon';
 import { TProduct } from '../../types';
 
-function Dropdown({ id }: { id: number; }) {
+function Dropdown({ id, showSearch }: { id: number, showSearch: boolean; }) {
 	const [open, setOpen] = useState(false);
 	const [search, setSearch] = useState('');
 	const menuRef = useRef() as MutableRefObject<HTMLDivElement>;
@@ -65,7 +65,7 @@ function Dropdown({ id }: { id: number; }) {
 						? `${styles.menu} ${styles.active}`
 						: `${styles.menu} ${styles.inactive}`
 				}>
-				{searchedProducts.length > 3 && (
+				{showSearch && (
 					<input
 						type='text'
 						id={`search-${id}`}
